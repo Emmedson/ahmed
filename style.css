@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 30px;
+    /* border: 0px; */
+
+}
+
+
+/* Animation */
+
+.box2{
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    transition-duration: 3000ms;
+    transition-property: transform;
+}
+
+.box2:hover{
+    height: 120px;
+    width: 120px;
+    background-color: brown;
+    transform: rotate(45deg);
+}
+
+
+
+/* Class Selector */
+
+.main{
+    width: 90%;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(240, 240, 240);
+    
+}
+
+
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     width: 80%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+
+
+
+/* Element Class Selectore */
+.head hr {
+    border-style:double;
+    width: 100%;
+    border-width: 14px;
+    border-color: rgb(52, 52, 53);
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+/* ID Selector For the labels */
+#last{
+    margin-left: 150px;
+}
+
+#first{
+    margin-left: 150px;
+}
+
+/* For the Form Inputs */
+
+#firstname{
+    padding: 10px 0px;
+    margin-left: 80px;
+}
+
+#lastname{
+    padding: 10px 0px;
+    margin-left: 2px;
+}
+
+#email{
+    padding: 10px 0px;
+    margin-left: 100px;
+}
+
+#tel{
+    padding: 10px 0px;
+    margin-left: 100px;
+}
+
+#button{
+    padding: 5px 20px;
+    background-color: rgb(167, 4, 4);
+    color: white;
+    font-size: 20px;
+    margin-left: 130px;
+}
+
+
+
+table{
+    border-style: solid; border-width: 1px;
+    padding: 10px;
+}
+
+table td{
+    padding-right: 50px;
+}
+
+p{
+    color: red;
+}
+
+.specailp{
+    color: gold;
+}
+
+#welcome{
+    font-size: 55px;
+}
+
+.intro > h6{
+    color: blue;
+}
+h6, table, Pre, h2 {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    transition-duration: 1000ms;
+    transition-property: transform;
+}
+
+.box:hover{
+    background-color: blue;
+    transform: rotate(35deg);
+}
